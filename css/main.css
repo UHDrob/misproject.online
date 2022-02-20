@@ -1,0 +1,28 @@
+
+nav {
+    background-color:aquamarine;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+h1 { 
+    color:blue;
+    margin: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active {
+    background-color: yellow;
+}
+
+hr { 
+    color:gray;
+ }
+footer {
+    text-align: center;
+}
