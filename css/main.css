@@ -1,6 +1,9 @@
 
 nav {
     background-color:aquamarine;
+    font-weight: bold;
+    margin: 50px;
+    border: 1pt solid green;
 }
 
 body {
@@ -12,9 +15,15 @@ h1 {
     margin: 50px;
 }
 
+p {
+    margin: 5px 0 10px 0;
+    font-weight: bold;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a:hover {
     text-decoration: none;
-    font-weight: bold;
+    font-weight:lighter;
 }
 a:active {
     background-color: yellow;
@@ -25,4 +34,6 @@ hr {
  }
 footer {
     text-align: center;
+    background-color: black;
+    color: aliceblue;
 }
