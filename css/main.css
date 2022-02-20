@@ -10,6 +10,13 @@ body {
     background-color:aliceblue;
 }
 
+li {
+    display: inline;
+}
+li a {
+    padding: 8px;
+}
+
 h1 { 
     color:blue;
     margin: 50px;
