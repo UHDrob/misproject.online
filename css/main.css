@@ -1,21 +1,41 @@
 
-nav {
+nav1 {
     background-color:aquamarine;
     font-weight: bold;
     margin: 50px;
     border: 1pt solid green;
 }
 
+
 body {
     background-color:aliceblue;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
 }
 
 li {
     display: inline;
+    float: left;
 }
 li a {
-    padding: 8px;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+}
+
+
+
 
 h1 { 
     color:blue;
@@ -28,6 +48,10 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+hr { 
+    color:gray;
+ }
+
 a:hover {
     text-decoration: none;
     font-weight:lighter;
@@ -36,11 +60,12 @@ a:active {
     background-color: yellow;
 }
 
-hr { 
-    color:gray;
- }
-footer {
-    text-align: center;
-    background-color: black;
-    color: aliceblue;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+
