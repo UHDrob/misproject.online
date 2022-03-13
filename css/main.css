@@ -1,20 +1,67 @@
 
+/** Heaeder  **/
+header {
+    background-color: cyan;
+}
 nav1 {
     background-color:aquamarine;
     font-weight: bold;
     margin: 50px;
     border: 1pt solid green;
 }
+nav2 {
 
 
+
+    
+}
+a:hover {
+    text-decoration: none;
+    font-weight:lighter;
+}
+a:active {
+    background-color: yellow;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+//** BODY **/
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color:aliceblue;
 }
+p {
+    margin: 5px 0 10px 0;
+    font-weight: bold;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr { 
+    color:gray;
+ }
+
+ /** FOOTER **/
 footer {
     text-align: center;
-    background-color: black;
+    background-color: #333;
     color: aliceblue;
+    padding:7px;
 }
+
+/** MAIN **/
+#updated {
+    text-align: right;
+}
+/** About us **/
+summary {
+    color: green;
+}
+
 
 li {
     display: inline;
@@ -33,39 +80,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #04AA6D;
 }
-
-
-
-
 h1 { 
     color:blue;
     margin: 50px;
 }
 
-p {
-    margin: 5px 0 10px 0;
-    font-weight: bold;;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-hr { 
-    color:gray;
- }
-
-a:hover {
-    text-decoration: none;
-    font-weight:lighter;
-}
-a:active {
-    background-color: yellow;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
 
