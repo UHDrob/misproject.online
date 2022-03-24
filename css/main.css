@@ -86,5 +86,16 @@ h1 {
 }
 
 
+label  {
+    font-weight: bold;
+}
+input[id="message"] {
+    padding: 60px 50px;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+}
 
 
