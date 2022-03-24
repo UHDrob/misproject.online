@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+
     <header>
         <table>
             <tbody>
@@ -27,33 +27,35 @@
             <ul>
                 <li>    <a href="index.html">Home</a>  </li>
                 <li>    <a href="asia.html">Asia</a>  </li>
-                <li>    <a href="contactus.html">Contact Us</a>  </li>
-                <li>    <a class="active" href="about.html">About Us</a>  </li>
+                <li>    <a class="active" href="contactus.html">Contact Us</a>  </li>
+                <li>    <a href="about.html">About</a>  </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Wed Developers</h2>
+        <h2>Questions? Comments?</h2>
+        <h3>Let us know!</h3>
 
-            <details>
-                <summary><Strong>Vanessa Garcia</strong></summary>
-                <p>Major: </p>
-                <p></p>
-            </details>
-            <details>
-                <summary><strong>Roberto Gomez</strong></summary>
-                <p>Major: Management Information Systems</p>
-                <p>Junior</p>
-            </details>
-        </section>
-        <br><br>
+        <form action="get">
+            <label for="text" id="firstname">First Name</label> <br>
+            <input type="text" name="firstname" placeholder="Your name"> <br> <br>
+            <label for="email" id="email">Email</label> <br> 
+            <input type="email" name="email" placeholder="Your email"> <br> <br>
+            <label for="text" id="message">Message</label> <br>
+            <input type="text" id="message"><br>
+            <br>
+            <input type="reset" value="Clear">
+            <input type="submit"> <br>
+            <br>
+
+        </form>
+
     </main>
 
     <footer>
-        <p><small>Copyright &copy; 2022  Team 7</small></p>
+        <p><small> <em>    Copyright &copy; 2022  Team 7  </em> </small></p>
     </footer>
-
+    
 </body>
 </html>
