@@ -49,3 +49,6 @@ body {
     background: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
+audio {
+    margin-top: 100px;
+}
