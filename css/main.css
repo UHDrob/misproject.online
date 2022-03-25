@@ -1,3 +1,20 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Centered text */
+.centered {
+    color:white;
+    font-size: xx-large;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-40%, -45%);
+  }
+
+
+
 
 /** Heaeder  **/
 header {
@@ -80,11 +97,12 @@ li a:hover:not(.active) {
 .active {
     background-color: #04AA6D;
 }
+/**
 h1 { 
     color:blue;
     margin: 50px;
 }
-
+**/
 
 label  {
     font-weight: bold;
