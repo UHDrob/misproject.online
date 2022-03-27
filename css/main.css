@@ -13,7 +13,9 @@
     transform: translate(-40%, -45%);
   }
 
-
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 /** Heaeder  **/
