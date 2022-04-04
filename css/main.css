@@ -4,11 +4,11 @@
     color: white;
   }
   /* Centered text */
-.centered {
+.logotext {
     color:white;
     font-size: xx-large;
     position: absolute;
-    top: 28%;
+    top: 5%;
     left: 48%;
     transform: translate(-40%, -45%);
   }
