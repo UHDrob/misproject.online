@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <header>
+        <div class="top">
+            <img src="images/50sunsetairplane.jpg" 
+            alt="Sunset Airplane" title="Let's go!" width="100%" >  </a>
+            <div class="logotext">
+                <h1>Trips</h1>
+            </div>
+         </div>
+        <nav>
+            <ul>
+                <li>    <a href="index.html">Home</a>  </li>
+                <li>    <a href="asia.html">Asia</a>  </li>
+                <li>    <a class="active" href="register.html">Register</a>  </li>
+                <li>    <a href="about.html">About</a>  </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Please register for our newsletter!</h2>
+
+        <form action="get">
+
+
+
+            
+
+            <fieldset>
+                <p>
+                    <label for="firstname" >First Name</label> <br>
+                    <input type="text" name="firstname" id="firstname" placeholder="Your name">
+                </p>
+                <p>
+                    <label for="email" id="email">Email</label> <br> 
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                </p>
+                <legend>Details</legend>
+                <p>
+                    <label for="name">Do you recommend a place?</label>
+                    <input type="text" name="title" placeholder="Place name">
+                </p>
+                <p>
+                    <label for="">Continent</label> <br>
+                    <input type="radio" name="where" value="1" checked>North America <br>
+                    <input type="radio" name="where" value="2">South America <br>
+                    <input type="radio" name="where" value="3">Asia <br>
+                </p>
+                <p>
+                    <label for="">Search Country</label>
+                    <select name="where" id="where">
+                        <option value="1">Canada</option>
+                        <option value="2">Finland</option>
+                        <option value="3" selected>United States</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="cities">Cities</label>
+                    <select name="text" id="cities" size="3">
+                        <optgroup label="North America">
+                            <option value="1">Calgary</option>
+                            <option value="2">Los Angeles</option>
+                            <option value="3" selected>Houston</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="4">London</option>
+                            <option value="5">Paris</option>
+                            <option value="6">Prague</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    Bad
+                    <input type="range" min="0" max="10" step="1" name="rating">
+                    Good
+                </p>
+                <p>
+                    <label for="message" >Message</label> <br>
+                    <textarea name="message" id="" cols="30" rows="10">
+                        Description
+                    </textarea>
+                </p>
+                <input type="reset" value="Clear">
+                <input type="submit"> <br>
+                <br>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p><small> <em>    Copyright &copy; 2022  Team 7  </em> </small></p>
+    </footer>
+    
+</body>
+</html>

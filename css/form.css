@@ -1,0 +1,15 @@
+
+form {
+    width: 500px;
+
+    font-size: 1.1em;
+}
+fieldset {
+    margin: 20px 5px 0 25px;
+    padding: 5px 15px 15px 15px;
+    background-color: yellow;
+}
+legend {
+    font-style: italic;
+    font-size: 1.25em;
+}
