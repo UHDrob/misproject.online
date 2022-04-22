@@ -22,6 +22,7 @@
             <ul>
                 <li>    <a href="index.html">Home</a>  </li>
                 <li>    <a href="asia.html">Asia</a>  </li>
+                <li>    <a href="northamerica.html">North America</a>  </li>
                 <li>    <a class="active" href="register.html">Register</a>  </li>
                 <li>    <a href="about.html">About</a>  </li>
             </ul>
@@ -46,37 +47,42 @@
                     <label for="email" id="email">Email</label> <br> 
                     <input type="email" name="email" id="email" placeholder="Your email">
                 </p>
+
                 <legend>Details</legend>
                 <p>
-                    <label for="name">Do you recommend a place?</label>
+                    <label for="name">Do you recommend a place to visit?</label><br>
                     <input type="text" name="title" placeholder="Place name">
                 </p>
                 <p>
-                    <label for="">Continent</label> <br>
+                    <label for="">Where is located?</label> <br>
                     <input type="radio" name="where" value="1" checked>North America <br>
                     <input type="radio" name="where" value="2">South America <br>
                     <input type="radio" name="where" value="3">Asia <br>
+                    <input type="radio" name="where" value="4">Europe <br>
+                    <input type="radio" name="where" value="5">Africa <br>
+                    <input type="radio" name="where" value="6">Australia (Oceania) <br>
+
                 </p>
+
                 <p>
-                    <label for="">Search Country</label>
-                    <select name="where" id="where">
-                        <option value="1">Canada</option>
-                        <option value="2">Finland</option>
-                        <option value="3" selected>United States</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="cities">Cities</label>
-                    <select name="text" id="cities" size="3">
-                        <optgroup label="North America">
-                            <option value="1">Calgary</option>
-                            <option value="2">Los Angeles</option>
-                            <option value="3" selected>Houston</option>
+                    <label for="cities">Cities</label> <br>
+                    <select name="text" id="cities" size="5">
+                        <optgroup label="U.S.A.">
+                            <option value="1" selected>Austin, TX</option>
+                            <option value="2">San Francisco, CA</option>
+                            <option value="3">Pensacola, FL</option>
                         </optgroup>
-                        <optgroup label="Europe">
-                            <option value="4">London</option>
-                            <option value="5">Paris</option>
-                            <option value="6">Prague</option>
+                        <optgroup label="Canada">
+                            <option value="4">Montreal</option>
+                            <option value="5">Quebec</option>
+                            <option value="6">Ottawa</option>
+                            <option value="7">Toronto</option>
+                        </optgroup>
+                        <optgroup label="Japan">
+                            <option value="8">Tokio</option>
+                            <option value="9">Kyoto</option>
+                            <option value="10">Osaka</option>
+                            <option value="11">Hiroshima</option>
                         </optgroup>
                     </select>
                 </p>
@@ -86,9 +92,9 @@
                     Good
                 </p>
                 <p>
-                    <label for="message" >Message</label> <br>
-                    <textarea name="message" id="" cols="30" rows="10">
-                        Description
+                    <label for="message" >Comments</label> <br>
+                    <textarea name="message" id="" cols="50" rows="10" >
+                        
                     </textarea>
                 </p>
                 <input type="reset" value="Clear">
