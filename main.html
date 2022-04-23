@@ -33,15 +33,19 @@
 
     <main>
         <div>
-            <h2 > <mark>Last Trip: Texas, U.S.A.</mark> </h2>
             <video controls loop autoplay width="300">
                 <source src="media/playa.MOV" /> 
                 <p>Texas</p>
             </video>
-
         </div>
+        <h2 > <mark>Last Trip: Texas, U.S.A.</mark> </h2>
+                    <!-- Today's Date  -->
+                    <button type="button" 
+                    onclick="document.getElementById('updated').innerHTML = Date()">What's today date?</button>
+                    
+        <p id=updated>Last update: <time dateime="2022-04-23">Apr 23, 2022</time>
 
-        <p id=updated>Last update: <time dateime="2022-04-21">Apr 21, 2022</time></p>
+        </p>
 
         <hr>
     
@@ -49,7 +53,7 @@
             <h2>Around the World!</h2>
             
             <table>
-                <caption>Countries</caption>
+                <caption>Main Cities</caption>
                 <thead>
                     <tr>
                         <th>Continent</th>
