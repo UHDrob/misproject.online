@@ -1,4 +1,4 @@
-let course = "MIS 3313 Web Analysis and Design";
+let course = "MIS 3313 Designing Business Web Sites";
 let term = "Spring 2022";
 let devs = "Web Developers";
 
