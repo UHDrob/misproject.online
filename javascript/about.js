@@ -1,3 +1,7 @@
-document.getElementById("course").innerHTML = "MIS 3313 Web Analysis and Design";
-document.getElementById("term").innerHTML = "Spring 2022";
-document.getElementById("developers").innerHTML = "Web Developers";
+let course = "MIS 3313 Web Analysis and Design";
+let term = "Spring 2022";
+let devs = "Web Developers";
+
+document.getElementById("course").innerHTML = course;
+document.getElementById("term").innerHTML = term;
+document.getElementById("developers").innerHTML = devs;
