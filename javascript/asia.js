@@ -1,12 +1,12 @@
 
 
 
-    var item1 = ["images/Ottawa-table.jpg", "Japan", "Tokyo, Kyoto, Osaka, Hiroshima"];
-    var item2 = ["images/Ottawa-table.jpg", "Korea", "Seoul"];
-    var item3 = ["images/Ottawa-table.jpg", "Thailand", "Bangkok, Phuket"];
-    var item4 = ["images/Huntsville-table.jpg", "Malaysia", "Kuala Lumpur"];
-    var item5 = ["images/Huntsville-table.jpg", "Singapore", "Singapore"];
-    var item6 = ["images/Huntsville-table.jpg", "Vietnam", "Ho Chi Minh City"];
+    var item1 = ["images/japan-table.jpg", "Japan", "Tokyo, Kyoto, Osaka, Hiroshima"];
+    var item2 = ["images/seoul-table.jpg", "Korea", "Seoul"];
+    var item3 = ["images/thailand-table.jpg", "Thailand", "Bangkok, Phuket"];
+    var item4 = ["images/kualalumpur-table.jpg", "Malaysia", "Kuala Lumpur"];
+    var item5 = ["images/singapore-table.jpg", "Singapore", "Singapore"];
+    var item6 = ["images/vietnam-table.jpg", "Vietnam", "Ho Chi Minh City"];
     
     var image = document.createElement
 
