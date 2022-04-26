@@ -3,16 +3,9 @@
 
     var item1 = ["images/Ottawa-table.jpg", "Canada", "Montreal, Quebec, Ottawa, Toronto"];
     var item2 = ["images/Huntsville-table.jpg", "U.S.A.", "San Francisco, Pensacola, Huntsville"];
-
     
     var image = document.createElement
-    var amount;  // var to hold the amount = quantiyt * price
-    var quantity;  // var to hold the quantity of items
-    var price;  // var to hold the unit price of each item
-    
-    
-    
-    
+        
     let table = document.createElement('table');
     let thead = document.createElement('thead');
     let tbody = document.createElement('tbody');
@@ -66,7 +59,7 @@
     row_3_data_2.innerHTML = item2[1];
 
     let row_3_data_3 = document.createElement('td');
-    row_3_data_3.innerHTML = item1[2];
+    row_3_data_3.innerHTML = item2[2];
     
     row_3.appendChild(img2);
     row_3.appendChild(row_3_data_2);
